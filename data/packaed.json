@@ -1,0 +1,24 @@
+{
+    "Movie_ID": {
+      "id?": "Movie_ID",
+      "name": "movie name",
+      "picture" : "url",
+      "director":"director name",
+      "date": "01-10-2021",
+      "rating": 5,
+      "isSeries":true,
+      "series_details":[10,12,13], // array length is number of seasons, the value represents the number of chapter in each season.
+      "actors": {
+        "actor_1_name": {
+          "name?": "actor_1_name",
+          "picture": "url",
+          "site": "url"
+        },
+        "actor_2_name": {
+          "name?": "actor_2_name",
+          "picture": "url",
+          "site": "url"
+        }
+      }
+    }
+  }
